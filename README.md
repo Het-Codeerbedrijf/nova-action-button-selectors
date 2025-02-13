@@ -19,7 +19,7 @@ Also it fixes some styling issues.
 
 ## How to install
 ```
-composer require lednerb/nova-action-button-selectors
+composer require lemonlabs/nova-action-button-selectors
 ```
 Detail page
 ![example_1](./docs/main_1.jpg)
@@ -34,7 +34,7 @@ In your Action class define the following trait:
 
 ```php
 ...
-use Lednerb\ActionButtonSelector\ShowAsButton;
+use LemonLabs\ActionButtonSelector\ShowAsButton;
 
 class MyAction extends Action
 {
