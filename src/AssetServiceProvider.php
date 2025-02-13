@@ -1,6 +1,6 @@
 <?php
 
-namespace Lednerb\ActionButtonSelector;
+namespace LemonLabs\ActionButtonSelector;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

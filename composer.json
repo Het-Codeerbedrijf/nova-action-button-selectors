@@ -1,42 +1,54 @@
 {
-    "name": "lednerb/nova-action-button-selectors",
-    "description": "A Laravel Nova asset.",
-    "keywords": [
-        "laravel",
-        "nova"
-    ],
-    "license": "MIT",
-    "homepage": "https://lednerb.de",
-    "authors": [
-        {
-            "name": "Sascha Brendel",
-            "email": "mail@lednerb.de"
-        },
-        {
-            "name": "Pitchayakit Pahamak",
-            "email": "pitchayakit.p@gmail.com",
-            "role": "Software Engineer"
-        }
-    ],
-    "require": {
-        "php": "^7.3|^8.0",
-        "laravel/nova": "~4.0"
+  "name": "lemonlabs/nova-action-button-selectors",
+  "description": "A Laravel Nova asset.",
+  "keywords": [
+    "laravel",
+    "nova"
+  ],
+  "license": "MIT",
+  "homepage": "https://lemonlabs.nl",
+  "authors": [
+    {
+      "name": "Lemon Labs",
+      "email": "development@lemonlabs.nl",
+      "role": "Organisation",
+      "homepage": "https://lemonlabs.nl"
     },
-    "autoload": {
-        "psr-4": {
-            "Lednerb\\ActionButtonSelector\\": "src/"
-        }
+    {
+      "name": "Sascha Brendel",
+      "email": "mail@lednerb.de"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Lednerb\\ActionButtonSelector\\AssetServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    {
+      "name": "Pitchayakit Pahamak",
+      "email": "pitchayakit.p@gmail.com",
+      "role": "Software Engineer"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/nova": "4.32.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "LemonLabs\\ActionButtonSelector\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LemonLabs\\ActionButtonSelector\\AssetServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ]
 }

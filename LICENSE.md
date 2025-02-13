@@ -1,5 +1,7 @@
 MIT License
 
+Copyright (c) 2025 Lemon Labs | https://lemonlabs.nl
+
 Copyright (c) 2022 Sascha Brendel | Lednerb IT-Security | https://lednerb.eu
 
 Copyright (c) 2022 Pitchayakit Pahamak (pitchayakit)

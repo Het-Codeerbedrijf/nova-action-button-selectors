@@ -1,6 +1,6 @@
 <?php
 
-namespace Lednerb\ActionButtonSelector;
+namespace LemonLabs\ActionButtonSelector;
 
 trait ShowAsButton
 {
