@@ -1,21 +1,15 @@
 ﻿# Laravel Nova action button selector
 
-<!-- [![Packagist Version](https://img.shields.io/packagist/v/lemonlabs/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lemonlabs/nova-action-button-selectors)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/lemonlabs/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lemonlabs/nova-action-button-selectors) -->
-
-Forked from [`lednerb/nova-action-button-selectors`](https://codeberg.org/Lednerb/nova-action-button-selectors)
+[![Packagist Version](https://img.shields.io/packagist/v/lemonlabs/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lemonlabs/nova-action-button-selectors)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/lemonlabs/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lemonlabs/nova-action-button-selectors)
 
 This package allows you to add buttons for Nova actions on the detail page instead having them all within the dropdown menu.
 
-This package is based on the original code from [`pitchayakit/nova-action-button-selector`](https://github.com/pitchayakit/nova-action-button-selector) but differs in usage:
-
-Instead of automatically showing all actions as buttons, it allows you to add the `ShowAsButton` trait to the actions you want to display as buttons.
-Also it fixes some styling issues.
-
+This package is forked from [`lednerb/nova-action-button-selectors`](https://codeberg.org/Lednerb/nova-action-button-selectors)
 
 ## Requirements
 - `php: ^8`
-- `laravel/nova: ^4`
+- `laravel/nova: ^4|^5`
 
 ## How to install
 ```
